@@ -509,8 +509,8 @@ std::string LicenseInfo()
                        "Visit %s for further information about the software."),
                PACKAGE_NAME, URL_WEBSITE) +
            "\n" +
-           strprintf(_("The source code is available from %s."),
-               URL_SOURCE_CODE) +
+           strprintf(_("The source code is available from %s"),
+               URL_SOURCE_CODE) + " & allan@doensen.com" +
            "\n" +
            "\n" +
            _("This is experimental software.") + "\n" +
