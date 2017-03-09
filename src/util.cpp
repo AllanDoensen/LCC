@@ -840,3 +840,9 @@ std::string CopyrightHolders(const std::string& strPrefix)
     }
     return strCopyrightHolders;
 }
+
+std::string LCCCopyrightHolders(const std::string& strPrefix)
+{
+    std::string strCopyrightHolders = "\n" + strPrefix + "Allan Doensen (allan@doensen.com)";
+    return strCopyrightHolders;
+}
