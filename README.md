@@ -22,7 +22,7 @@ the Bitcoin Core software, see https://bitcoin.org/en/download, or read the
 What is Bitcoin LCC?
 --------------------
 
-Bitcoin Lossy Compression Chain (LCC) is a blockchain replacement for the Bitcoin MemPool that is designed to increase scalability of Bitcoin without causing a hard fork of the blockchain. 
+Bitcoin Lossy Compression Chain (LCC) is a blockchain replacement for the Bitcoin MemPool that is designed to increase scalability of Bitcoin without causing a hard fork of the blockchain. *** This project is experimental and is not yet operational. ***
 
 License
 -------
