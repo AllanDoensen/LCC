@@ -1,9 +1,10 @@
-Bitcoin Core integration/staging tree
+Bitcoin LCC integration/staging tree
 =====================================
 
 [![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
 
 https://bitcoincore.org
+http://www.doensen.com
 
 What is Bitcoin?
 ----------------
@@ -18,10 +19,15 @@ For more information, as well as an immediately useable, binary version of
 the Bitcoin Core software, see https://bitcoin.org/en/download, or read the
 [original whitepaper](https://bitcoincore.org/bitcoin.pdf).
 
+What is Bitcoin LCC?
+--------------------
+
+Bitcoin Lossy Compression Chain (LCC) is a blockchain replacement for the Bitcoin MemPool that is designed to increase scalability of Bitcoin without causing a hard fork of the blockchain. 
+
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bitcoin Core & Bitcoin LCC are released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
