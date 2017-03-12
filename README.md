@@ -55,7 +55,7 @@ Current Progress
     Added minor notes and GUI changes to indicate that this is not a bitcoin core blockchain. Started work on making this code 'alt-coin' like.
 
 <<< 11-Mar-2017
-	Removed block reward. When a block is created no block reward is given, the LCC relys on fees in bitcoin only. It does not generate it's own native token.   
+	Removed block reward. When a block is created no block reward is given, the LCC relies on fees in bitcoin only. It does not generate it's own native token.   
 
 <<< 10-Mar-2017 
 	First release 
