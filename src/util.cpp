@@ -99,8 +99,8 @@ namespace boost {
 
 
 
-const char * const BITCOIN_CONF_FILENAME = "bitcoin.conf";
-const char * const BITCOIN_PID_FILENAME = "bitcoind.pid";
+const char * const BITCOIN_CONF_FILENAME = "bitcoinlcc.conf";
+const char * const BITCOIN_PID_FILENAME = "bitcoinlccd.pid";
 
 CCriticalSection cs_args;
 std::map<std::string, std::string> mapArgs;
@@ -458,7 +458,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "bitcoin";
+    const char* pszModule = "bitcoinlcc";
 #endif
     if (pex)
         return strprintf(
@@ -478,13 +478,13 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Bitcoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Bitcoin
-    // Mac: ~/Library/Application Support/Bitcoin
-    // Unix: ~/.bitcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\BitcoinLCC
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\BitcoinLCC
+    // Mac: ~/Library/Application Support/BitcoinLCC
+    // Unix: ~/.bitcoinlcc
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "BitcoinLCC";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -494,10 +494,10 @@ boost::filesystem::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Bitcoin";
+    return pathRet / "Library/Application Support/BitcoinLCC";
 #else
     // Unix
-    return pathRet / ".bitcoin";
+    return pathRet / ".bitcoinlcc";
 #endif
 #endif
 }
