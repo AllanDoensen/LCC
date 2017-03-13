@@ -1,11 +1,9 @@
 Bitcoin LCC integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/bitcoin/bitcoin.svg?branch=master)](https://travis-ci.org/bitcoin/bitcoin)
-
 https://bitcoincore.org
 
-http://www.doensen.com
+http://www.bitcoinlcc.info
 
 What is Bitcoin?
 ----------------
@@ -43,21 +41,24 @@ completely stable.
 Defect Reports
 --------------
 
-Defects should be emailed to llc_defects@doensen.com
+Defects should be emailed to defects@bitcoinlcc.info
 
 Current Progress
 ----------------
 
+<<< 13-Mar-2017 
+	Updated the name of the application and default directories. Name is now 'Bitcoin LCC' or 'bitcoinlcc' etc.
+
 <<< 12-Mar-2017
-    Move the default linux path for the blockchain from ".bitcoin" to ".lcc_bitcoin". Ditto for other OS.
+	Move the default linux path for the blockchain from ".bitcoin" to ".lcc_bitcoin". Ditto for other OS.
 
 <<< 11-Mar-2017
-    Added minor notes and GUI changes to indicate that this is not a bitcoin core blockchain. Started work on making this code 'alt-coin' like.
+	Added minor notes and GUI changes to indicate that this is not a bitcoin core blockchain. Started work on making this code 'alt-coin' like.
 
 <<< 11-Mar-2017
 	Removed block reward. When a block is created no block reward is given, the LCC relies on fees in bitcoin only. It does not generate it's own native token.   
 
 <<< 10-Mar-2017 
-	First release 
+	First release. 
  
 
