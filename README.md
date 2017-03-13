@@ -46,6 +46,9 @@ Defects should be emailed to defects@bitcoinlcc.info
 Current Progress
 ----------------
 
+<<< 14-Mar-2017
+	Changed default port from 8333 to 8331. Bitcoin & BitcoinLLC can now be run at the same time on a single device (only tested with Unbuntu Linux).
+
 <<< 13-Mar-2017 
 	Updated the name of the application and default directories. Name is now 'Bitcoin LCC' or 'bitcoinlcc' etc.
 
